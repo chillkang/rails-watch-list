@@ -2,12 +2,12 @@
 <hr class="my-5">
   <div class="row">
     <div class="col-12 col-sm-6">
-      <h3 class="text-white">Reviews</h3>
+      <h3 class="text-white">Reviews</h3><br />
       <% if @list.reviews.empty? %>
-        <small><em class="text-muted">Be the first one to review this list</em></small>
+        <small><em class="text-muted">Be the first one to review this list! </em></small>
       <% end %>
       <% @list.reviews.each do |review| %>
-        <div>
+        <div class="review-content">
           <% review.rating.times do %>
             <i class="fas fa-star star-yellow"></i>
           <% end %>
@@ -24,7 +24,7 @@
           <%= f.input :comment, placeholder: "Add your review here..." %>
           <%= f.input :rating, as: :select, collection: (1..5), required: true, prompt: "What's your rating?", input_html: { data: { controller: "jquery-bar-rating" } } %>
           <div class="col text-center">
-          <%= f.submit class:"btn btn-danger" %>
+          <%= f.submit class:"btn btn-primary" %>
           </div>
         <% end %>
       </div>
