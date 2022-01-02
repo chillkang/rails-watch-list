@@ -1,11 +1,13 @@
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-6">
-      <br /><h2 class="text-white">Create a new list</h2>
+      <br /><h2 class="text-white text-center">Create a new list</h2><br />
         <%= simple_form_for @list do |f| %>
           <div class="form-inputs text-white">
             <%= f.input :name, placeholder: 'Drama' %>
-            <%= f.submit class: 'btn btn-danger' %>
+            <div class="col text-center">
+            <%= f.submit class: 'btn btn-primary' %><br />
+            </div>
           </div>
         <% end %>
     </div>
