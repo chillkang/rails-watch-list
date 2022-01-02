@@ -1,8 +1,8 @@
 <div class="container mb-5">
-<hr class="my-5 text-white">
+<hr class="my-5">
   <div class="row">
     <div class="col-12 col-sm-6">
-      <h3>Reviews</h3>
+      <h3 class="text-white">Reviews</h3>
       <% if @list.reviews.empty? %>
         <small><em class="text-muted">Be the first one to review this list</em></small>
       <% end %>
@@ -19,11 +19,13 @@
     </div>
     <div class="col-12 col-sm-6">
       <div class="bg-white rounded p-3">
-        <h5>Add your review</h5>
+        <h5>Add your review</h5><br />
         <%= simple_form_for [@list, @review] do |f| %>
           <%= f.input :comment, placeholder: "Add your review here..." %>
-          <%= f.input :rating, as: :select, collection: (1..5), required: true, prompt: "What's your rating", input_html: { data: { controller: "jquery-bar-rating" } } %>
-          <%= f.submit class:"btn btn-flat" %>
+          <%= f.input :rating, as: :select, collection: (1..5), required: true, prompt: "What's your rating?", input_html: { data: { controller: "jquery-bar-rating" } } %>
+          <div class="col text-center">
+          <%= f.submit class:"btn btn-danger" %>
+          </div>
         <% end %>
       </div>
     </div>
