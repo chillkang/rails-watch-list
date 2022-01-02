@@ -8,7 +8,11 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import "bootstrap";
+import { initStarRating } from '../plugins/init_star_rating';
 
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+
+initStarRating();
