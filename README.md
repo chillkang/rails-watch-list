@@ -1,24 +1,17 @@
-# README
+# Description:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[My Movie List][1] is a Rails app for creating personalized movie lists with bookmarks.
 
-Things you may want to cover:
+# Features:
+* Personalized movie lists
+* Bookmarks and reviews for each list
 
-* Ruby version
+# Tools and technologies used:
+* Ruby on Rails
+* PostgreSQL
+* HTML, CSS, Bootstrap
+* Javascript, Stimulus, JQuery
+* Heroku
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[1]: https://film-watch-list.herokuapp.com/
