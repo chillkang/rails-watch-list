@@ -9,5 +9,6 @@ Movie.create(title: "Wonder Woman 1984", overview: "Wonder Woman comes into conf
 Movie.create(title: "The Shawshank Redemption", overview: "Framed in the 1940s for double murder, upstanding banker Andy Dufresne begins a new life at the Shawshank prison", poster_url: "https://image.tmdb.org/t/p/original/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg", rating: 8.7)
 Movie.create(title: "Titanic", overview: "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic.", poster_url: "https://image.tmdb.org/t/p/original/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg", rating: 7.9)
 Movie.create(title: "Ocean's Eight", overview: "Debbie Ocean, a criminal mastermind, gathers a crew of female thieves to pull off the heist of the century.", poster_url: "https://image.tmdb.org/t/p/original/MvYpKlpFukTivnlBhizGbkAe3v.jpg", rating: 7.0)
-
+Movie.create(title: "Spider-Man: No Way Home", overview: "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.", poster_url: "https://www.themoviedb.org/t/p/original/zAEV3KFOKgITIvl8dSS9yiWsApF.jpg", rating: 9.0)
+Movie.create(title: "The Matrix Resurrections", overview: "Plagued by strange memories, Neo's life takes an unexpected turn when he finds himself back inside the Matrix.", poster_url: "https://www.themoviedb.org/t/p/original/8c4a8kE7PizaGQQnditMmI1xbRp.jpg", rating: 6.5)
 puts "Movies created"
