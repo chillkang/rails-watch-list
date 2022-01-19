@@ -1,9 +1,9 @@
 # Description:
 
-[My Movie List][1] is a Rails app for creating personalized movie lists with bookmarks.
+[This Weekend][1] is a Rails app for creating weekend to-do lists with reviews.
 
 # Features:
-* Personalized movie lists
+* Personalized to-do lists
 * Bookmarks and reviews for each list
 
 # Tools and technologies used:
